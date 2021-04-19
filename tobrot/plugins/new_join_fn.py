@@ -25,4 +25,4 @@ async def help_message_f(client, message):
     # display the /help
 
     await message.reply_text(
-         Hello 👾 !This is Telegram Leech bot 🧲  Click Below to know how to use me 📝Developer 👨🏻‍💻: @Itz_Me_Malayaali
+        <b>Hello 👾 !This is Telegram Leech bot 🧲  Click Below to know how to use me 📝Developer 👨🏻‍💻: @Itz_Me_Malayaali</b>
