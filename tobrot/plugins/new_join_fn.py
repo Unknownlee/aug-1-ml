@@ -26,7 +26,5 @@ async def help_message_f(client, message):
 
     await message.reply_text(
         """<b>Hello 👾 !
-This is Telegram Leech bot 🧲 
-Check Pinned Message to know how to use me 📝
-
-Developer 👨🏻‍💻: @Itz_Me_Malayaali</b>
+This is Telegram Leech bot 🧲 Check Rules Before Leeching 📝Developer 👨🏻‍💻: @Itz_Me_Malayaali</b>
+)
