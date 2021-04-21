@@ -297,7 +297,7 @@ async def check_progress_for_dl(aria2, gid, event, previous_message):
                 ikeyboard = []
                 ikeyboard.append(
                     InlineKeyboardButton(
-                        "Cancel 🚫", callback_data=(f"cancel {gid}").encode("UTF-8")
+                        "❌CᴀɴCᴇʟ​❌", callback_data=(f"cancel {gid}").encode("UTF-8")
                     )
                 )
                 inline_keyboard.append(ikeyboard)
