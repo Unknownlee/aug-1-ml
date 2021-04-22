@@ -1,11 +1,9 @@
-#!/usr/bin/env python3
-# -*- coding: utf-8 -*-
-# (c) Shrimadhav U K
-
 import logging
 
 import pyrogram
 from tobrot import AUTH_CHANNEL, LOGGER
+
+from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton
 
 
 async def new_join_f(client, message):
@@ -25,6 +23,17 @@ async def help_message_f(client, message):
     # display the /help
 
     await message.reply_text(
-        """<b>Hello 👾 !</b>\n<b>This Is A Telegram Leech Bot 🧲 </b>\n<b>Click Below To Know How To Use Me 📄</b>\n\n<b> Developer 👨🏻‍💻 : @Itz_Me_Malayaali</b> """,
+        """ <b>Hello 👾 !</b>\n<b>This Is A Telegram Leech Bot 🧲 </b>\n<b>Click Below To Know How To Use Me 📄</b>\n\n<b> Developer 👨🏻‍💻 : @MeGBots</b>""",
         disable_web_page_preview=True,
+        parse_mode="html",
+        reply_markup=InlineKeyboardMarkup(
+            [
+                [
+                    InlineKeyboardButton('💫 HOW TO USE 💫', url='https://t.me/MeGLeech/5')
+                ],
+                [
+                    InlineKeyboardButton('🌩 Mirror Group 🌩', url='https://t.me/MeGCloud')
+                ]
+            ]
+        ),
     )
