@@ -127,7 +127,7 @@ async def incoming_youtube_dl_f(client, message):
     """ /ytdl command """
     current_user_id = message.from_user.id
     credit = await message.reply_text(
-        f"<b>⚙ Leeching For :</b> {u_men}",
+        f""<b>🧲 Leeching for you <a href='tg://user?id={g_id}'>🤕</b>",
         parse_mode="html",
     )
     i_m_sefg = await message.reply_text("processing...", quote=True)
