@@ -23,7 +23,7 @@ async def help_message_f(client, message):
     # display the /help
 
     await message.reply_text(
-        """ <b>Hello 👾 !</b>\n<b>This Is A Telegram Leech Bot 🧲 </b>\n<b>Click Below To Know How To Use Me 📄</b>\n\n<b> Developer 👨🏻‍💻 : @MeGBots</b>""",
+        """ <b>Hello 👾 !</b>\n<b>This Is A Telegram Leech Bot 🧲 </b>\n<b>Click Below To Know How To Use Me 📄</b>\n\n<b> Developer 👨🏻‍💻 : @Itz_Me_Malayaali</b>""",
         disable_web_page_preview=True,
         parse_mode="html",
         reply_markup=InlineKeyboardMarkup(
@@ -32,7 +32,7 @@ async def help_message_f(client, message):
                     InlineKeyboardButton('💫 HOW TO USE 💫', url='https://t.me/MeGLeech/5')
                 ],
                 [
-                    InlineKeyboardButton('🌩 Mirror Group 🌩', url='https://t.me/MeGCloud')
+                    InlineKeyboardButton('🌃 Movie Channel 🌃', url='https://t.me/TamilMoviesML')
                 ]
             ]
         ),
