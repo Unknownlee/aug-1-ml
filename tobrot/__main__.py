@@ -27,6 +27,8 @@ from tobrot import (
     LEECH_UNZIP_COMMAND,
     LEECH_ZIP_COMMAND,
     LOG_COMMAND,
+    TOGGLE_VID,
+    TOGGLE_DOC,
     LOGGER,
     PYTDL_COMMAND,
     RENEWME_COMMAND,
